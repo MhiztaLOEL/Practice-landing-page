@@ -1,0 +1,176 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                background-image: url(new\ image.avif);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 95vh;
+                display: flex;
+                backdrop-filter: blur(3px);
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .topbar {
+                margin-left: 92px;
+                margin-top: 30px;
+                width: 1000px;
+                height: 80px;
+                background: radial-gradient(rgba(255, 255, 255, 0.6));
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+                border-radius: 20px;
+                backdrop-filter: blur(3px);
+            }
+            
+            nav {
+                display: flex;
+                padding: 10px 5%;
+            }
+            
+            .logo {
+                margin-top: 10px;
+                color: white;
+                float: left;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            
+            nav ul {
+                flex: 1px;
+                text-align: right;
+            }
+            
+            nav ul li {
+                list-style: none;
+                display: inline-block;
+                margin: 20px 10px;
+                transition: 0.3s ease;
+            }
+            
+            nav ul li a {
+                text-decoration: none;
+                color: yellow;
+            }
+            
+            nav ul li a:hover {
+                color: red;
+            }
+            /*commenting out the removed menu iage*/
+            /* .menu {
+                color: brown;
+                float: right;
+                margin-top: 10px;
+                list-style: none;
+            } */
+            
+            .content {
+                background-image: url(new\ image.avif);
+                background-position: center;
+                background-size: cover;
+                height: 600px;
+                width: 900px;
+                background: radial-gradient(rgba(255, 255, 255, 0.6));
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+                border-radius: 20px;
+                backdrop-filter: blur (3px);
+                margin-top: 20px;
+                margin-left: 95px;
+                padding-left: 30px;
+            }
+            
+            .personal {
+                padding-top: 10px;
+                font-size: 30px;
+                color: rgb(251, 255, 0);
+                font-family: sans-serif;
+                padding-bottom: 10px;
+            }
+            
+            #content {
+                color: rgb(202, 105, 63);
+                letter-spacing: 0.5px;
+                font-family: cursive;
+                margin-bottom: 25px;
+                margin-top: 20px;
+                text-shadow: 0.5px 0.5px;
+                white-space: 4px;
+                font-size: 17px;
+                text-shadow: 1px 1px black;
+            }
+            /* p {
+                color: black;
+                font-size: 14px;
+                font-family: sans-serif;
+                width: 100px;
+                margin-top: 50px;
+                position: absolute;
+            } */
+            
+            button {
+                width: 70px;
+                height: 20px;
+                padding: 0px 15px;
+                margin-top: 0px;
+                color: yellow;
+                background-color: black;
+                transition: 0.3 ease;
+                border: none;
+                border-radius: 5px;
+            }
+            
+            button:hover {
+                color: blue;
+                cursor: pointer;
+                background: yellow;
+            }
+            
+            .socials {
+                margin-left: 95px;
+                width: 600px;
+                height: 50px;
+                background: radial-gradient(rgba(255, 255, 255, 0.6));
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+                border-radius: 20px;
+                margin-top: 30px;
+            }
+            
+            .social-links ul li {
+                padding-top: 15px;
+                padding-right: 35px;
+                margin-left: 20px;
+                display: flex;
+                list-style: none;
+                text-align: right;
+            }
+            
+            .social-links ul li a {
+                color: yellow;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            
+            .social-links ul li a:hover {
+                color: red;
+            }
+            
+            .social {
+                display: flex;
+            }
+            
+            #service {
+                margin-top: 30px;
+                color: yellow;
+                font-family: sans-serif;
+            }
+            
+            .service {
+                color: rgb(202, 105, 63);
+                text-shadow: 1px 1px black;
+                margin-bottom: 10px;
+                font-family: sans-serif;
+            }
